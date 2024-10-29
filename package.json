@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-01",
+  "version": "1.0.0",
+  "description": "Desafio 01 - Rocketseat",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "import-tasks": "node csv-stream.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmeilibr/nodejs-01.git"
+  },
+  "author": "Leandro Meili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmeilibr/nodejs-01/issues"
+  },
+  "homepage": "https://github.com/lmeilibr/nodejs-01#readme",
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "express": "^4.21.1"
+  }
+}
